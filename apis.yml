@@ -1,8 +1,23 @@
 aid: strattic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strattic.png
 name: Strattic
-description: 'Strattic is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Strattic was a static and headless WordPress hosting platform that pre-rendered WordPress
+  sites into static assets for improved security, performance, and scalability, while preserving the
+  familiar WordPress admin experience via SFTP and WP-CLI developer access. Strattic was acquired by
+  Elementor in 2022 and folded into Elementor Hosting; Elementor announced the sunset of its dedicated
+  static hosting service in 2025, and strattic.com now 301-redirects to elementor.com/hosting/. No
+  independent Strattic public API, developer portal, or documentation surface remains.'
 url: https://raw.githubusercontent.com/api-evangelist/strattic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Cybersecurity
+- WordPress
+- Static Site Hosting
+- Headless CMS
+- Web Performance
+- Website Builder
+- Acquired
+x-status: acquired-defunct
+x-acquired-by: elementor
+x-redirects-to: https://elementor.com/hosting/
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/strattic-domain-security.yml
 - type: Website
   url: https://www.strattic.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
