@@ -57,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/elementor/
+  name: Elementor
+  x-relationship: acquired
+  x-evidence: "Strattic was acquired by Elementor in 2022 and folded into Elementor Hosting; Elementor announced the sunset of its dedicated static hosting service in 2025, and strattic."
 - type: DomainSecurity
   url: security/strattic-domain-security.yml
 - type: Website
