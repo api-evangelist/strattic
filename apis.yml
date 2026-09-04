@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.strattic.com/', status: 301, note: 'declared website redirects to https://elementor.com/hosting/ — a different registrable domain (strattic.com -> elementor.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strattic.png
 name: Strattic
 description: 'Strattic was a static and headless WordPress hosting platform that pre-rendered WordPress
