@@ -1,0 +1,29 @@
+# Front Door AI Index — strattic — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: strattic
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.strattic.com
+  final_host: elementor.com
+  ownership: own
+  owner: strattic
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 22
+  host_score: 22
+  density: 5.09
+  words: 4320
+  tiers:
+    agentic: 3
+    core: 19
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 18
+    AI assistant: 1
+    agentic: 1
+    generative ai: 1
+    prompts: 1
