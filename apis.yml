@@ -45,11 +45,11 @@ tags:
 - Company
 - WordPress
 - Static Site Hosting
-- Headless CMS
 - Web Performance
 - Website Builder
 - Acquired
-x-status: acquired-defunct
+- Defunct
+x-status: defunct
 x-acquired-by: elementor
 x-redirects-to: https://elementor.com/hosting/
 apis: []
@@ -73,3 +73,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Headless CMS
